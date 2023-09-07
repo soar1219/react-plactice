@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// /* const,letの変数宣言 */
+// var val1 = "val1";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// console.log(val1);
+// /* var変数は上書き可能 */
 
-export default App;
+// val1 = "変数を上書き"
+// console.log(val1);
+
+// /* varは再宣言可能 */
+// var val1 = "var変数を再宣言";
+
+// console.log(val1);
+
+// let val2 = "let変数";
+// console.log(val2);
+
+// /* letは上書きが可能 */
+// val2 = "let変数を上書き";
+// console.log(val2);
+
+// /* letは再宣言不可能 */
+// let val2 = "let変数を再宣言";
+
+// const val3 = "const変数";
+// console.log(val3);
+
+// /* const変数は上書き不可 */
+
+// /* val3 = "const変数を上書き"; */
+// const val3 = "const変数を再宣言";
+
+// constで定義したオブジェクトはプロパティの変更が可能
+// const val4 = {name:"つばさ", age:28};
+// val4.name = "ツー";
+// val4.address = "Fukushima";
+// console.log(val4);
+
+// constで定義した配列はプロパティの変更が可能
+/* const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monky");
+console.log(val5); */
+
