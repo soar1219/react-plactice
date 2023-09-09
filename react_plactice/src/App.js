@@ -173,7 +173,8 @@ console.log(num.toLocaleString());
 const formatedNum =  typeof num ==="number" ? num.toLocaleString() : "数値を入力してください。"
 console.log(formatedNum); */
 
-const checkSum = (num1,num2) => {
+/* const checkSum = (num1,num2) => {
   return num1 + num2 > 100 ? "100を超えています" : "許容範囲内です。";
 }
-console.log(checkSum(50,60));
+console.log(checkSum(50,60)); */
+
